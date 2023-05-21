@@ -38,7 +38,7 @@ var intervalId;
 
 function startCarousel() {
 intervalId = setInterval(function() {
-}, 2000); // Se cambia la duración del carrusel para cada imagen
+}, 500); // Se cambia la duración del carrusel para cada imagen
 }
 
 function stopCarousel() {

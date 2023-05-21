@@ -293,7 +293,7 @@
     transition: 1.5s;
   }
   
-  a{
+  .pt-5 a{
     text-decoration: none;
     font-size: 18px;
     transition: color 1.5s ease;
@@ -341,7 +341,19 @@
     font-size: 35px;
     transition: .5s;
   }
-  
+   
+  .iconosContacto a{
+    color: #fff;
+    display: flex;
+    flex-wrap:nowrap;
+    text-decoration: none;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 4px 1px;
+    font-size: 0.6rem;
+    transition: .5s;
+  }
   .historiafooter{
   text-align: center;
   }
