@@ -341,6 +341,7 @@ header .btn{
   background: white;
   white-space: nowrap;
   position: relative;
+  transition: 1s;
 }
 
 .logos:before,
@@ -377,6 +378,15 @@ header .btn{
   margin: 0 40px;
 }
 
+.aliadoKybernus {
+  background-color: #191919;
+}
+
+.logos a {
+  text-decoration: none;
+  outline: none;
+}
+
 
 
   /*SECCIÓN DEL FOOTER*/
@@ -387,7 +397,7 @@ header .btn{
     transition: 1.5s;
   }
   
-  a{
+  .pt-5 a{
     text-decoration: none;
     font-size: 18px;
     transition: color 1.5s ease;

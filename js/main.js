@@ -32,7 +32,26 @@
 // }
 // )
 
-//  *****CONTROLES PARA TÉRMINOS Y CONDICIONES*****
+/* *****FUNCIÓN PARA DETENER EL CARRUSEL DE ALIADOS AL NO ESTARLO MIRANDO***** */
+var logosSlide = document.querySelector('.logos-slide');
+var intervalId;
+
+function startCarousel() {
+intervalId = setInterval(function() {
+}, 2000); // Se cambia la duración del carrusel para cada imagen
+}
+
+function stopCarousel() {
+clearInterval(intervalId);
+}
+
+window.addEventListener('scroll', stopCarousel);
+window.addEventListener('beforeunload', stopCarousel);
+
+startCarousel();
+
+
+/*  *****CONTROLES PARA TÉRMINOS Y CONDICIONES***** */
 document.addEventListener("DOMContentLoaded", function(event) {
     const terminosParrafo = document.getElementById("terms");
 
@@ -75,3 +94,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
       });
     });
   });
+
+
