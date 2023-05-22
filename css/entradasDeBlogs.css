@@ -1,3 +1,11 @@
+.goog-te-gadget-simple {
+  background-color: #000;
+  border: 1px solid #ffffff;
+  
+}
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed{
+  color: #ffffff;
+}
 body {
     background-image: url(/src/imgfondos/fondococina.png);
     background-size: cover;

@@ -1,7 +1,14 @@
 /* Nav */
 
 
-
+.goog-te-gadget-simple {
+  background-color: #000;
+  border: 1px solid #ffffff;
+  
+}
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed{
+  color: #ffffff;
+}
 
 header a img{
     border-radius: 50%;
@@ -241,7 +248,7 @@ header a img{
     right: 0;
     top: 0;
     transform-origin: center;
-    trsnsform: scale(1) translateZ(0);
+    transform: scale(1) translateZ(0);
     transition: 
       filter 200ms linear,
       transform 200ms linear;
