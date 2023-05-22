@@ -6,7 +6,7 @@ Swal.fire({
     width: 600,
     padding: '3em',
     background: '#f59622',
-    timer: 6000,
+    timer: 4000,
      timerProgressBar: true,
   didOpen: () => {
     Swal.showLoading()
